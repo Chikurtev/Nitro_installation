@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+sudo apt update -y
+
 echo "Install TurtleBot2 Packages in catkin_ws"
 name_catkin_workspace=${name_catkin_workspace:="catkin_ws"}
 cd
